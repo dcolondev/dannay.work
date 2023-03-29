@@ -1,0 +1,67 @@
+baseurl = "https://dannay.work"
+title = "Daniel Colon"
+theme = "hugo-coder"
+languagecode = "en"
+defaultcontentlanguage = "en"
+
+paginate = 20
+
+#disqusShortname = "dannay-work"
+
+[markup.highlight]
+style = "github-dark"
+
+[params]
+  author = "Daniel Colon"
+  info = "DevOps / Jack of All Trades"
+  description = "Daniel's personal website"
+  keywords = "blog,developer,devops,sysadmin,personal"
+  avatarurl = "images/avatar.png"
+  gravatar = "dcolonbusiness@gmail.com"
+
+  favicon_32 = "/images/favicon32.png"
+  favicon_16 = "/images/favicon32.png"
+
+  since = 2023
+
+  enableTwemoji = true
+
+  colorScheme = "auto"
+  hidecolorschemetoggle = false
+
+  # customCSS = ["css/custom.css"]
+  # customSCSS = ["scss/custom.scss"]
+  # customJS = ["js/custom.js"]
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+  author = "authors"
+
+# Social links
+[[params.social]]
+  name = "Github"
+  icon = "fa fa-github fa-2x"
+  weight = 1
+  url = "https://github.com/dcolondev/"
+[[params.social]]
+  name = "Gitlab"
+  icon = "fa fa-gitlab fa-2x"
+  weight = 2
+  url = "https://gitlab.home.dannay.live"
+#[[params.social]]
+#  name = "LinkedIn"
+#  icon = "fa fa-linkedin fa-2x"
+#  weight = 3
+#  url = "#"
+
+# Menu links
+[[menu.main]]
+  name = "Blog"
+  weight = 1
+  url  = "posts/"
+[[menu.main]]
+  name = "About"
+  weight = 2
+  url = "about/"
