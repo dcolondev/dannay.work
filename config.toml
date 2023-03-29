@@ -13,7 +13,7 @@ style = "github-dark"
 
 [params]
   author = "Daniel Colon"
-  info = "DevOps / Jack of All Trades"
+  info = "DevOps - Jack of All Trades"
   description = "Daniel's personal website"
   keywords = "blog,developer,devops,sysadmin,personal"
   avatarurl = "images/avatar.png"
@@ -50,6 +50,11 @@ style = "github-dark"
   icon = "fa fa-gitlab fa-2x"
   weight = 2
   url = "https://gitlab.home.dannay.live"
+[[params.social]]
+  name = "Github"
+  icon = "fa fa-github fa-2x"
+  weight = 3
+  url = "https://github.com/dcolonhvvc/"
 #[[params.social]]
 #  name = "LinkedIn"
 #  icon = "fa fa-linkedin fa-2x"
